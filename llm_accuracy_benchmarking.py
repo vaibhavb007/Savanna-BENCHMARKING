@@ -95,7 +95,7 @@ def main():
 
     # ---- Run inference + measure per-call power/energy ----
     power_samples = []
-    with jtop(interval=100) as jetson:  # 100 ms polling
+    with jtop(interval=0.1) as jetson:  # 100 ms polling
         # Wait until jtop starts returning valid data
         print("Waiting for jtop to start streaming power data...", flush=True)
         t0 = time.time()
