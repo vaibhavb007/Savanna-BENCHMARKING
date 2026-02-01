@@ -4,8 +4,8 @@ import seaborn as sns
 import os
 
 # Path
-base_path = os.path.expanduser("~/Desktop/6344334")
-save_path = os.path.expanduser("~/Desktop/benchmark_accuracy_by_qtype.png")
+base_path = os.path.expanduser("~/Documents/Savanna-BENCHMARKING/")
+save_path = os.path.expanduser("~/Documents/Savanna-BENCHMARKING/benchmark_accuracy_by_qtype.png")
 
 # File names
 files = {

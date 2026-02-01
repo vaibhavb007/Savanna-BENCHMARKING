@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 import os
 
 # Path to your folder
-base_path = os.path.expanduser("~/Desktop/6344334")
-save_path = os.path.expanduser("~/Desktop/benchmark_accuracy_table.png")
+base_path = os.path.expanduser("~/Documents/Savanna-BENCHMARKING/")
+save_path = os.path.expanduser("~/Documents/Savanna-BENCHMARKING/benchmark_accuracy_table.png")
 
 # File names
 files = {
@@ -34,7 +34,7 @@ fig, ax = plt.subplots(figsize=(6, 3))
 ax.axis("off")  # Hide axes
 
 # Add title
-plt.title("Accuracy Collected Over 500 Runs - Low Res Dataset",
+plt.title("Accuracy Collected Over 1000 Runs - Low Res Dataset",
           fontsize=14, weight="bold", pad=20)
 
 # Create table
