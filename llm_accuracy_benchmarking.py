@@ -44,11 +44,13 @@ def sample_power(jetson, samples, stop_event, interval=0.1):
 
 def integrate_energy(samples):
     """Compute average power in watts"""
+    if len(samples) < 2:
+        return 0.0
     E = 0.0
+    duration = samples[-1]["t"] - samples[0]["t"]
     for a, b in zip(samples[:-1], samples[1:]):
         dt = b["t"] - a["t"]
         E += 0.5 * (a["tot"] + b["tot"]) * dt
-        duration = samples[-1]["t"] - samples[0]["t"] 
     return E / duration if duration > 0 else 0.0
 
 def main():
@@ -100,12 +102,12 @@ def main():
         print("Waiting for jtop to start streaming power data...", flush=True)
         t0 = time.time()
         while not jetson.ok() or not jetson.power:
-            time.sleep(0.1) # wait
+            time.sleep(0.1)  # wait
             if time.time() - t0 > 5:  # timeout after 5 seconds
                 print("jtop failed to initialize after 5s", flush=True)
                 return
 
-            print(" jtop ready, starting inference measurement...", flush=True)
+        print("jtop ready, starting inference measurement...", flush=True)
 
         stop_event = threading.Event()
         sampler = threading.Thread(target=sample_power, args=(jetson, power_samples, stop_event))
