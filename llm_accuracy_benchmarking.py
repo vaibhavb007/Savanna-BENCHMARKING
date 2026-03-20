@@ -30,34 +30,38 @@ def run_ollama_cli(model, prompt, image_path):
         return "", 0.0
 
 def sample_power(jetson, samples, stop_event, interval=0.1):
-    """Background sampler."""
+    """Background sampler for power and GPU temperature."""
     while not stop_event.is_set() and jetson.ok():
         p = jetson.power
-        if p:
+        t = jetson.temperature
+        if p and t:
             samples.append({
                 "t": time.time(),
                 "tot": p["tot"]["power"] / 1000.0,
                 "cpu_gpu": p["rail"]["VDD_CPU_GPU_CV"]["power"] / 1000.0,
-                "soc": p["rail"]["VDD_SOC"]["power"] / 1000.0
+                "soc": p["rail"]["VDD_SOC"]["power"] / 1000.0,
+                "temp_gpu": t.get("GPU", 0)  # Focus on GPU temp
             })
         time.sleep(interval)
 
 def integrate_energy(samples):
-    """Compute average power in watts"""
+    """Compute average power in watts via trapezoidal integration."""
     E = 0.0
+    if len(samples) < 2:
+        return 0.0
     for a, b in zip(samples[:-1], samples[1:]):
         dt = b["t"] - a["t"]
         E += 0.5 * (a["tot"] + b["tot"]) * dt
-        duration = samples[-1]["t"] - samples[0]["t"] 
+    duration = samples[-1]["t"] - samples[0]["t"] 
     return E / duration if duration > 0 else 0.0
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--questions", default=None)
-    parser.add_argument("--answers", default=None)
+    parser.add_argument("--questions", required=True)
+    parser.add_argument("--answers", required=True)
     parser.add_argument("--image-dir", default="Images_LR")
     parser.add_argument("--output", default=None)
-    parser.add_argument("--model", default=None)
+    parser.add_argument("--model", required=True)
     parser.add_argument("--index", type=int, required=True)
     args = parser.parse_args()
 
@@ -93,19 +97,15 @@ def main():
         print(f"No ground truth for qid {qid}, skipping.", flush=True)
         return
 
-    # ---- Run inference + measure per-call power/energy ----
+    # ---- Run inference + measure ----
     power_samples = []
-    with jtop(interval=100) as jetson:  # 100 ms polling
-        # Wait until jtop starts returning valid data
-        print("Waiting for jtop to start streaming power data...", flush=True)
+    with jtop(interval=100) as jetson:
         t0 = time.time()
         while not jetson.ok() or not jetson.power:
-            time.sleep(0.1) # wait
-            if time.time() - t0 > 5:  # timeout after 5 seconds
-                print("jtop failed to initialize after 5s", flush=True)
+            time.sleep(0.1)
+            if time.time() - t0 > 5:
+                print("jtop failed to initialize", flush=True)
                 return
-
-            print(" jtop ready, starting inference measurement...", flush=True)
 
         stop_event = threading.Event()
         sampler = threading.Thread(target=sample_power, args=(jetson, power_samples, stop_event))
@@ -118,27 +118,18 @@ def main():
         stop_event.set()
         sampler.join(timeout=2)
 
-    # ---- Verify actual sampling interval ----
-    if len(power_samples) > 1:
-        intervals = [(b["t"] - a["t"]) * 1000 for a, b in zip(power_samples[:-1], power_samples[1:])]
-        print(f"Collected {len(power_samples)} samples")
-        print(f"Average interval: {sum(intervals)/len(intervals):.1f} ms")
-        print(f"Min: {min(intervals):.1f} ms, Max: {max(intervals):.1f} ms")
-    else:
-        print("No samples collected!")
-
-    # Keep only samples inside the inference window
+    # ---- Filter and Compute ----
     samples_in_window = [s for s in power_samples if start_time <= s["t"] <= end_time]
 
-    # Compute stats and energy
     if samples_in_window:
         avg_tot = sum(s["tot"] for s in samples_in_window) / len(samples_in_window)
         max_tot = max(s["tot"] for s in samples_in_window)
         avg_cpu_gpu = sum(s["cpu_gpu"] for s in samples_in_window) / len(samples_in_window)
         max_cpu_gpu = max(s["cpu_gpu"] for s in samples_in_window)
         avg_power_integrated_w = integrate_energy(samples_in_window)
+        max_gpu_temp = max(s["temp_gpu"] for s in samples_in_window)
     else:
-        avg_tot = max_tot = avg_cpu_gpu = max_cpu_gpu = avg_power_integrated_w = 0.0
+        avg_tot = max_tot = avg_cpu_gpu = max_cpu_gpu = avg_power_integrated_w = max_gpu_temp = 0.0
 
     is_correct = normalize(response) in gt_answers
 
@@ -152,26 +143,20 @@ def main():
                 "model_response", "ground_truth", "question_text",
                 "avg_tot_w", "max_tot_w",
                 "avg_cpu_gpu_w", "max_cpu_gpu_w",
-                "avg_power_integrated_w"
+                "avg_power_integrated_w", "max_gpu_temp_c"
             ])
         writer.writerow([
             qid, f"{latency:.3f}", int(is_correct),
             response, "|".join(gt_answers), q["question"],
             f"{avg_tot:.2f}", f"{max_tot:.2f}",
             f"{avg_cpu_gpu:.2f}", f"{max_cpu_gpu:.2f}",
-            f"{avg_power_integrated_w:.2f}"
+            f"{avg_power_integrated_w:.2f}", f"{max_gpu_temp:.2f}"
         ])
         f.flush()
 
     # ---- Print results ----
-    print(f"[Q{qid}] {q['question']}", flush=True)
-    print(f"Model: {response}", flush=True)
-    print(f"GT: {gt_answers}", flush=True)
-    print(f"Correct: {is_correct}, Time: {latency:.2f}s", flush=True)
-    print(f"Power: tot avg {avg_tot:.2f} W, tot max {max_tot:.2f} W, "
-          f"cpu+gpu avg {avg_cpu_gpu:.2f} W, cpu+gpu max {max_cpu_gpu:.2f} W", flush=True)
-    print(f"Energy: {avg_power_integrated_w:.2f} W", flush=True)
+    print(f"[Q{qid}] {q['question']}")
+    print(f"Correct: {is_correct} | Time: {latency:.2f}s | Max GPU Temp: {max_gpu_temp:.2f}°C", flush=True)
 
 if __name__ == "__main__":
     main()
-
