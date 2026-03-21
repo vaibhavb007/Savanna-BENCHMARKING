@@ -45,14 +45,14 @@ def sample_power(jetson, samples, stop_event, interval=0.1):
         time.sleep(interval)
 
 def integrate_energy(samples):
-    """Compute average power in watts via trapezoidal integration."""
-    E = 0.0
+    """Compute average power in watts"""
     if len(samples) < 2:
         return 0.0
+    E = 0.0
+    duration = samples[-1]["t"] - samples[0]["t"]
     for a, b in zip(samples[:-1], samples[1:]):
         dt = b["t"] - a["t"]
         E += 0.5 * (a["tot"] + b["tot"]) * dt
-    duration = samples[-1]["t"] - samples[0]["t"] 
     return E / duration if duration > 0 else 0.0
 
 def main():
