@@ -1,0 +1,796 @@
+{
+  "questions": [
+    {
+      "id": 23,
+      "date_added": 1543570371.634426,
+      "img_id": 0,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of buildings equal to the number of water areas?",
+      "answers_ids": [
+        23
+      ],
+      "active": true
+    },
+    {
+      "id": 27,
+      "date_added": 1543570371.6344361,
+      "img_id": 0,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of residential buildings equal to the number of medium roads?",
+      "answers_ids": [
+        27
+      ],
+      "active": true
+    },
+    {
+      "id": 48,
+      "date_added": 1543570371.6345978,
+      "img_id": 0,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of residential buildings equal to the number of roads?",
+      "answers_ids": [
+        48
+      ],
+      "active": true
+    },
+    {
+      "id": 54,
+      "date_added": 1543570371.6346114,
+      "img_id": 0,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of buildings equal to the number of roads?",
+      "answers_ids": [
+        54
+      ],
+      "active": true
+    },
+    {
+      "id": 64,
+      "date_added": 1543570371.634638,
+      "img_id": 0,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of commercial buildings equal to the number of water areas?",
+      "answers_ids": [
+        64
+      ],
+      "active": true
+    },
+    {
+      "id": 71,
+      "date_added": 1543570371.6346564,
+      "img_id": 0,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of roads equal to the number of water areas?",
+      "answers_ids": [
+        71
+      ],
+      "active": true
+    },
+    {
+      "id": 82,
+      "date_added": 1543570371.6346853,
+      "img_id": 0,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of commercial buildings equal to the number of pitchs?",
+      "answers_ids": [
+        82
+      ],
+      "active": true
+    },
+    {
+      "id": 88,
+      "date_added": 1543570371.6346984,
+      "img_id": 0,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of water areas equal to the number of rectangular buildings?",
+      "answers_ids": [
+        88
+      ],
+      "active": true
+    },
+    {
+      "id": 93,
+      "date_added": 1543570371.6347113,
+      "img_id": 0,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of forests equal to the number of water areas?",
+      "answers_ids": [
+        93
+      ],
+      "active": true
+    },
+    {
+      "id": 95,
+      "date_added": 1543570371.6347153,
+      "img_id": 0,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of roads equal to the number of commercial buildings?",
+      "answers_ids": [
+        95
+      ],
+      "active": true
+    },
+    {
+      "id": 96,
+      "date_added": 1543570371.6347175,
+      "img_id": 0,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of roads equal to the number of forests?",
+      "answers_ids": [
+        96
+      ],
+      "active": true
+    },
+    {
+      "id": 110,
+      "date_added": 1543570390.1803467,
+      "img_id": 1,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of residential buildings equal to the number of water areas?",
+      "answers_ids": [
+        110
+      ],
+      "active": true
+    },
+    {
+      "id": 119,
+      "date_added": 1543570390.1803653,
+      "img_id": 1,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of water areas equal to the number of commercial buildings in the image?",
+      "answers_ids": [
+        119
+      ],
+      "active": true
+    },
+    {
+      "id": 124,
+      "date_added": 1543570390.1803756,
+      "img_id": 1,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of buildings equal to the number of roads?",
+      "answers_ids": [
+        124
+      ],
+      "active": true
+    },
+    {
+      "id": 125,
+      "date_added": 1543570390.1803775,
+      "img_id": 1,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of grass areas equal to the number of water areas?",
+      "answers_ids": [
+        125
+      ],
+      "active": true
+    },
+    {
+      "id": 130,
+      "date_added": 1543570390.1803885,
+      "img_id": 1,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of water areas equal to the number of circular roads?",
+      "answers_ids": [
+        130
+      ],
+      "active": true
+    },
+    {
+      "id": 132,
+      "date_added": 1543570390.1803923,
+      "img_id": 1,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of grass areas equal to the number of buildings?",
+      "answers_ids": [
+        132
+      ],
+      "active": true
+    },
+    {
+      "id": 143,
+      "date_added": 1543570390.1804147,
+      "img_id": 1,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of residential buildings equal to the number of roads?",
+      "answers_ids": [
+        143
+      ],
+      "active": true
+    },
+    {
+      "id": 147,
+      "date_added": 1543570390.180423,
+      "img_id": 1,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of circular commercial buildings equal to the number of farmlands?",
+      "answers_ids": [
+        147
+      ],
+      "active": true
+    },
+    {
+      "id": 149,
+      "date_added": 1543570390.1804328,
+      "img_id": 1,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of roads equal to the number of square residential buildings?",
+      "answers_ids": [
+        149
+      ],
+      "active": true
+    },
+    {
+      "id": 166,
+      "date_added": 1543570390.180472,
+      "img_id": 1,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of commercial buildings equal to the number of water areas?",
+      "answers_ids": [
+        166
+      ],
+      "active": true
+    },
+    {
+      "id": 168,
+      "date_added": 1543570390.180477,
+      "img_id": 1,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of buildings equal to the number of forests?",
+      "answers_ids": [
+        168
+      ],
+      "active": true
+    },
+    {
+      "id": 169,
+      "date_added": 1543570390.180479,
+      "img_id": 1,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of residential buildings equal to the number of water areas on the right of a  residential building?",
+      "answers_ids": [
+        169
+      ],
+      "active": true
+    },
+    {
+      "id": 171,
+      "date_added": 1543570390.1804829,
+      "img_id": 1,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of water areas equal to the number of residential buildings?",
+      "answers_ids": [
+        171
+      ],
+      "active": true
+    },
+    {
+      "id": 174,
+      "date_added": 1543570390.1804912,
+      "img_id": 1,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of commercial buildings equal to the number of farmlands?",
+      "answers_ids": [
+        174
+      ],
+      "active": true
+    },
+    {
+      "id": 180,
+      "date_added": 1543570390.1805043,
+      "img_id": 1,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of buildings equal to the number of large roads?",
+      "answers_ids": [
+        180
+      ],
+      "active": true
+    },
+    {
+      "id": 181,
+      "date_added": 1543570390.1805072,
+      "img_id": 1,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of farmlands equal to the number of residential buildings in the image?",
+      "answers_ids": [
+        181
+      ],
+      "active": true
+    },
+    {
+      "id": 189,
+      "date_added": 1543570390.180525,
+      "img_id": 1,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of roads equal to the number of water areas?",
+      "answers_ids": [
+        189
+      ],
+      "active": true
+    },
+    {
+      "id": 219,
+      "date_added": 1543570390.6340766,
+      "img_id": 2,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of water areas equal to the number of forests in the image?",
+      "answers_ids": [
+        219
+      ],
+      "active": true
+    },
+    {
+      "id": 228,
+      "date_added": 1543570390.6340969,
+      "img_id": 2,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of roads equal to the number of forests?",
+      "answers_ids": [
+        228
+      ],
+      "active": true
+    },
+    {
+      "id": 234,
+      "date_added": 1543570390.6341233,
+      "img_id": 2,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of water areas equal to the number of grass areas?",
+      "answers_ids": [
+        234
+      ],
+      "active": true
+    },
+    {
+      "id": 235,
+      "date_added": 1543570390.6341255,
+      "img_id": 2,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of forests equal to the number of water areas?",
+      "answers_ids": [
+        235
+      ],
+      "active": true
+    },
+    {
+      "id": 240,
+      "date_added": 1543570390.6341455,
+      "img_id": 2,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of grass areas equal to the number of roads?",
+      "answers_ids": [
+        240
+      ],
+      "active": true
+    },
+    {
+      "id": 254,
+      "date_added": 1543570390.6341982,
+      "img_id": 2,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of forests equal to the number of roads?",
+      "answers_ids": [
+        254
+      ],
+      "active": true
+    },
+    {
+      "id": 257,
+      "date_added": 1543570390.6342056,
+      "img_id": 2,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of water areas equal to the number of small roads?",
+      "answers_ids": [
+        257
+      ],
+      "active": true
+    },
+    {
+      "id": 258,
+      "date_added": 1543570390.634208,
+      "img_id": 2,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of water areas equal to the number of roads?",
+      "answers_ids": [
+        258
+      ],
+      "active": true
+    },
+    {
+      "id": 263,
+      "date_added": 1543570390.6342194,
+      "img_id": 2,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of roads equal to the number of forests on the left of a  medium water area in the image?",
+      "answers_ids": [
+        263
+      ],
+      "active": true
+    },
+    {
+      "id": 268,
+      "date_added": 1543570390.634242,
+      "img_id": 2,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of roads equal to the number of water areas?",
+      "answers_ids": [
+        268
+      ],
+      "active": true
+    },
+    {
+      "id": 271,
+      "date_added": 1543570390.6342518,
+      "img_id": 2,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of circular forests equal to the number of water areas?",
+      "answers_ids": [
+        271
+      ],
+      "active": true
+    },
+    {
+      "id": 275,
+      "date_added": 1543570390.6342714,
+      "img_id": 2,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of roads equal to the number of rectangular water areas?",
+      "answers_ids": [
+        275
+      ],
+      "active": true
+    },
+    {
+      "id": 286,
+      "date_added": 1543570390.6343164,
+      "img_id": 2,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of forests equal to the number of water areas on the right of a  road?",
+      "answers_ids": [
+        286
+      ],
+      "active": true
+    },
+    {
+      "id": 297,
+      "date_added": 1543570390.6343424,
+      "img_id": 2,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of water areas equal to the number of circular roads?",
+      "answers_ids": [
+        297
+      ],
+      "active": true
+    },
+    {
+      "id": 321,
+      "date_added": 1543570758.3168194,
+      "img_id": 3,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of roads equal to the number of commercial buildings?",
+      "answers_ids": [
+        321
+      ],
+      "active": true
+    },
+    {
+      "id": 324,
+      "date_added": 1543570758.3168314,
+      "img_id": 3,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of water areas equal to the number of buildings?",
+      "answers_ids": [
+        324
+      ],
+      "active": true
+    },
+    {
+      "id": 327,
+      "date_added": 1543570758.3168373,
+      "img_id": 3,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of residential buildings equal to the number of roads?",
+      "answers_ids": [
+        327
+      ],
+      "active": true
+    },
+    {
+      "id": 357,
+      "date_added": 1543570758.3169081,
+      "img_id": 3,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of residential buildings equal to the number of water areas?",
+      "answers_ids": [
+        357
+      ],
+      "active": true
+    },
+    {
+      "id": 370,
+      "date_added": 1543570758.3169408,
+      "img_id": 3,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of buildings equal to the number of grass areas?",
+      "answers_ids": [
+        370
+      ],
+      "active": true
+    },
+    {
+      "id": 374,
+      "date_added": 1543570758.316949,
+      "img_id": 3,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of commercial buildings equal to the number of square grass areas?",
+      "answers_ids": [
+        374
+      ],
+      "active": true
+    },
+    {
+      "id": 382,
+      "date_added": 1543570758.3169672,
+      "img_id": 3,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of small water areas equal to the number of commercial buildings?",
+      "answers_ids": [
+        382
+      ],
+      "active": true
+    },
+    {
+      "id": 392,
+      "date_added": 1543570758.3169887,
+      "img_id": 3,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of water areas equal to the number of circular commercial buildings?",
+      "answers_ids": [
+        392
+      ],
+      "active": true
+    },
+    {
+      "id": 394,
+      "date_added": 1543570758.3169937,
+      "img_id": 3,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of commercial buildings equal to the number of grass areas?",
+      "answers_ids": [
+        394
+      ],
+      "active": true
+    },
+    {
+      "id": 397,
+      "date_added": 1543570758.3170016,
+      "img_id": 3,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of forests equal to the number of water areas?",
+      "answers_ids": [
+        397
+      ],
+      "active": true
+    },
+    {
+      "id": 399,
+      "date_added": 1543570758.3170054,
+      "img_id": 3,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of square roads equal to the number of rectangular water areas?",
+      "answers_ids": [
+        399
+      ],
+      "active": true
+    },
+    {
+      "id": 422,
+      "date_added": 1543570758.4012141,
+      "img_id": 4,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of farmlands equal to the number of water areas in the image?",
+      "answers_ids": [
+        422
+      ],
+      "active": true
+    },
+    {
+      "id": 449,
+      "date_added": 1543570758.4012766,
+      "img_id": 4,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of water areas equal to the number of roads?",
+      "answers_ids": [
+        449
+      ],
+      "active": true
+    },
+    {
+      "id": 456,
+      "date_added": 1543570758.4012923,
+      "img_id": 4,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of water areas equal to the number of medium nature reserves?",
+      "answers_ids": [
+        456
+      ],
+      "active": true
+    },
+    {
+      "id": 465,
+      "date_added": 1543570758.4013157,
+      "img_id": 4,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of water areas equal to the number of farmlands?",
+      "answers_ids": [
+        465
+      ],
+      "active": true
+    },
+    {
+      "id": 466,
+      "date_added": 1543570758.4013176,
+      "img_id": 4,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of roads equal to the number of water areas in the image?",
+      "answers_ids": [
+        466
+      ],
+      "active": true
+    },
+    {
+      "id": 477,
+      "date_added": 1543570758.4013433,
+      "img_id": 4,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of farmlands equal to the number of roads?",
+      "answers_ids": [
+        477
+      ],
+      "active": true
+    },
+    {
+      "id": 481,
+      "date_added": 1543570758.4013522,
+      "img_id": 4,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of rectangular orchards equal to the number of roads?",
+      "answers_ids": [
+        481
+      ],
+      "active": true
+    },
+    {
+      "id": 483,
+      "date_added": 1543570758.4013562,
+      "img_id": 4,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of grass areas equal to the number of roads?",
+      "answers_ids": [
+        483
+      ],
+      "active": true
+    },
+    {
+      "id": 486,
+      "date_added": 1543570758.4013646,
+      "img_id": 4,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of nature reserves equal to the number of water areas?",
+      "answers_ids": [
+        486
+      ],
+      "active": true
+    },
+    {
+      "id": 490,
+      "date_added": 1543570758.4013731,
+      "img_id": 4,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of water areas equal to the number of forests?",
+      "answers_ids": [
+        490
+      ],
+      "active": true
+    },
+    {
+      "id": 491,
+      "date_added": 1543570758.4013753,
+      "img_id": 4,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of grass areas equal to the number of rectangular roads?",
+      "answers_ids": [
+        491
+      ],
+      "active": true
+    },
+    {
+      "id": 493,
+      "date_added": 1543570758.4013803,
+      "img_id": 4,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of square grass areas equal to the number of farmlands?",
+      "answers_ids": [
+        493
+      ],
+      "active": true
+    },
+    {
+      "id": 497,
+      "date_added": 1543570758.4013963,
+      "img_id": 4,
+      "people_id": 0,
+      "type": "comp",
+      "question": "Is the number of roads equal to the number of forests?",
+      "answers_ids": [
+        497
+      ],
+      "active": true
+    }
+  ]
+}

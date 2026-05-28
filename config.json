@@ -1,0 +1,10 @@
+{
+  "results_dir": "/home/savanna/Documents/Savanna-BENCHMARKING/results",
+  "plots_dir": "/home/savannaDocuments/Savanna-BENCHMARKING/graphs",
+  "models": {
+    "EQUALITY_Benchmark": {
+      "LLaVA-7B": "benchmark_results_new_llava_7b.csv",
+      "LLaVA-Llama3 Latest": "benchmark_results_new_llava-llama3_latest.csv"
+    }
+  }
+}

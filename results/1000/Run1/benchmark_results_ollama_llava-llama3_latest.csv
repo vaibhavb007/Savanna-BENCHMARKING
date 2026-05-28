@@ -1,0 +1,8 @@
+question_id,latency_sec,correct,model_response,ground_truth,question_text,avg_gpu_w,max_gpu_w,avg_power_integrated_w,max_gpu_temp_c
+0,63.266,0,rural,urban,Is it a rural or an urban area,0.00,0.00,0.00,47.9
+1,33.750,1,yes,yes,Is there a water area?,0.59,0.64,5.47,47.8
+2,26.494,0,100,5524,What is the amount of buildings?,0.48,0.48,5.31,48.0
+3,20.423,0,1,82,What is the number of commercial buildings in the image?,0.00,0.00,0.00,48.4
+4,21.017,1,yes,yes,Is there a small water area?,0.00,0.00,0.00,48.4
+5,23.742,0,7,5380,What is the amount of residential buildings?,0.00,0.00,0.00,48.4
+6,23.188,1,yes,yes,Is a building present?,0.00,0.00,0.00,48.8

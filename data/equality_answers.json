@@ -1,0 +1,532 @@
+{
+  "answers": [
+    {
+      "id": 257,
+      "date_added": 1543570390.634207,
+      "question_id": 257,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 130,
+      "date_added": 1543570390.1803894,
+      "question_id": 130,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 258,
+      "date_added": 1543570390.6342103,
+      "question_id": 258,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 132,
+      "date_added": 1543570390.1803932,
+      "question_id": 132,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 382,
+      "date_added": 1543570758.3169682,
+      "question_id": 382,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 263,
+      "date_added": 1543570390.6342206,
+      "question_id": 263,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 392,
+      "date_added": 1543570758.3169906,
+      "question_id": 392,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 394,
+      "date_added": 1543570758.3169947,
+      "question_id": 394,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 268,
+      "date_added": 1543570390.634243,
+      "question_id": 268,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 397,
+      "date_added": 1543570758.3170025,
+      "question_id": 397,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 143,
+      "date_added": 1543570390.1804156,
+      "question_id": 143,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 271,
+      "date_added": 1543570390.6342537,
+      "question_id": 271,
+      "people_id": 0,
+      "answer": "yes",
+      "active": true
+    },
+    {
+      "id": 399,
+      "date_added": 1543570758.3170063,
+      "question_id": 399,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 147,
+      "date_added": 1543570390.180424,
+      "question_id": 147,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 275,
+      "date_added": 1543570390.6342726,
+      "question_id": 275,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 149,
+      "date_added": 1543570390.180434,
+      "question_id": 149,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 23,
+      "date_added": 1543570371.634427,
+      "question_id": 23,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 27,
+      "date_added": 1543570371.634437,
+      "question_id": 27,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 286,
+      "date_added": 1543570390.6343176,
+      "question_id": 286,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 166,
+      "date_added": 1543570390.1804729,
+      "question_id": 166,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 422,
+      "date_added": 1543570758.4012153,
+      "question_id": 422,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 168,
+      "date_added": 1543570390.1804779,
+      "question_id": 168,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 169,
+      "date_added": 1543570390.1804798,
+      "question_id": 169,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 297,
+      "date_added": 1543570390.6343443,
+      "question_id": 297,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 171,
+      "date_added": 1543570390.1804838,
+      "question_id": 171,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 174,
+      "date_added": 1543570390.1804934,
+      "question_id": 174,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 48,
+      "date_added": 1543570371.6345987,
+      "question_id": 48,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 180,
+      "date_added": 1543570390.1805053,
+      "question_id": 180,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 181,
+      "date_added": 1543570390.1805081,
+      "question_id": 181,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 54,
+      "date_added": 1543570371.6346123,
+      "question_id": 54,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 189,
+      "date_added": 1543570390.180526,
+      "question_id": 189,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 64,
+      "date_added": 1543570371.634639,
+      "question_id": 64,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 321,
+      "date_added": 1543570758.316825,
+      "question_id": 321,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 449,
+      "date_added": 1543570758.4012778,
+      "question_id": 449,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 324,
+      "date_added": 1543570758.3168323,
+      "question_id": 324,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 71,
+      "date_added": 1543570371.6346576,
+      "question_id": 71,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 327,
+      "date_added": 1543570758.3168385,
+      "question_id": 327,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 456,
+      "date_added": 1543570758.4012933,
+      "question_id": 456,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 465,
+      "date_added": 1543570758.401317,
+      "question_id": 465,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 82,
+      "date_added": 1543570371.6346862,
+      "question_id": 82,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 466,
+      "date_added": 1543570758.40132,
+      "question_id": 466,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 88,
+      "date_added": 1543570371.6347005,
+      "question_id": 88,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 219,
+      "date_added": 1543570390.6340778,
+      "question_id": 219,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 93,
+      "date_added": 1543570371.6347122,
+      "question_id": 93,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 477,
+      "date_added": 1543570758.4013443,
+      "question_id": 477,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 95,
+      "date_added": 1543570371.6347163,
+      "question_id": 95,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 96,
+      "date_added": 1543570371.6347191,
+      "question_id": 96,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 481,
+      "date_added": 1543570758.4013531,
+      "question_id": 481,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 483,
+      "date_added": 1543570758.4013574,
+      "question_id": 483,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 228,
+      "date_added": 1543570390.6340976,
+      "question_id": 228,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 357,
+      "date_added": 1543570758.316909,
+      "question_id": 357,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 486,
+      "date_added": 1543570758.4013655,
+      "question_id": 486,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 234,
+      "date_added": 1543570390.6341245,
+      "question_id": 234,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 235,
+      "date_added": 1543570390.634127,
+      "question_id": 235,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 490,
+      "date_added": 1543570758.401374,
+      "question_id": 490,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 491,
+      "date_added": 1543570758.4013762,
+      "question_id": 491,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 110,
+      "date_added": 1543570390.1803477,
+      "question_id": 110,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 493,
+      "date_added": 1543570758.4013815,
+      "question_id": 493,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 240,
+      "date_added": 1543570390.6341465,
+      "question_id": 240,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 497,
+      "date_added": 1543570758.4013972,
+      "question_id": 497,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 370,
+      "date_added": 1543570758.3169417,
+      "question_id": 370,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 374,
+      "date_added": 1543570758.31695,
+      "question_id": 374,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 119,
+      "date_added": 1543570390.1803663,
+      "question_id": 119,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 124,
+      "date_added": 1543570390.1803765,
+      "question_id": 124,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 125,
+      "date_added": 1543570390.1803787,
+      "question_id": 125,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    },
+    {
+      "id": 254,
+      "date_added": 1543570390.6341994,
+      "question_id": 254,
+      "people_id": 0,
+      "answer": "no",
+      "active": true
+    }
+  ]
+}

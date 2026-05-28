@@ -1,0 +1,15 @@
+question_id,latency_sec,correct,model_response,ground_truth,question_text,avg_gpu_w,max_gpu_w,avg_power_integrated_w,max_gpu_temp_c
+0,135.942,1,urban,urban,Is it a rural or an urban area,0.46,1.83,5.38,49.4
+1,1.438,0,no,yes,Is there a water area?,1.67,1.67,7.25,49.1
+2,2.120,0,1,5524,What is the amount of buildings?,1.67,1.95,7.33,49.3
+3,1.652,0,1,82,What is the number of commercial buildings in the image?,1.71,1.71,7.36,49.3
+4,1.385,0,no,yes,Is there a small water area?,1.75,1.75,7.40,49.6
+5,2.527,0,152,5380,What is the amount of residential buildings?,1.71,1.95,7.43,49.4
+6,1.389,0,no,yes,Is a building present?,1.71,1.71,7.36,49.8
+7,1.378,0,no,yes,Is there a residential building?,1.71,1.71,7.40,49.5
+8,1.693,0,1,1064,What is the amount of roads in the image?,1.71,1.71,7.28,49.6
+9,1.389,1,no,no,Are there more water areas than commercial buildings?,1.71,1.71,7.36,49.7
+10,1.412,1,yes,yes,Is there a road?,1.67,1.67,7.25,49.6
+11,1.383,0,no,yes,Are there less roads than buildings?,1.71,1.71,7.36,50.0
+12,1.391,1,yes,yes,Is there a commercial building in the image?,1.71,1.71,7.52,49.8
+13,2.177,0,623,258,What is the amount of grass areas?,1.87,1.99,7.80,49.9
